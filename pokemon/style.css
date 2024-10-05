@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    
+}
+
+img  {
+    animation-name: example;
+            animation: example 10s infinite;}
+            @keyframes example{
+                from{transform: translate(0px);}
+                to{
+                    transform:translate(
+                        300px);}
+                }
+
+            
